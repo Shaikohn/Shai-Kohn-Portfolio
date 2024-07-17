@@ -1,0 +1,81 @@
+.contactContainer {
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+/* Container for the contact form */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact form styling */
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.form-header {
+    margin-bottom: 20px;
+}
+
+.form-title {
+    color: #555;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-description {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Input and textarea styling */
+.form-input,
+.form-textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    border-color: #00bfa6;
+    outline: none;
+}
+
+/* Button styling */
+.form-button {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #00bfa6;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #009b8a;
+}

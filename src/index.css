@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Baskervville+SC&family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: linear-gradient(75deg, #ff00ba 0, #e800b8 16.67%, #ca07b3 33.33%, #ab0dab 50%, #8c11a1 66.67%, #6e1497 83.33%, #52168e 100%);
+}
+
+a {
+  text-decoration:none;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Baskervville SC", serif;
+  font-size: 50px;
+  margin: 0;
+}
+
+p {
+  font-family: "Baskervville SC", serif;
+}
+
+button {
+  border-radius: 16px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #ffffff;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

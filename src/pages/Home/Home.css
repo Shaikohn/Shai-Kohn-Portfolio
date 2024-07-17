@@ -1,0 +1,35 @@
+.homeButtons {
+    margin: 10px;
+}
+
+.homeContainer {
+    align-items: center;
+    display: flex;
+    height: 80vh;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.paragraphHome {
+    font-size: 20px;
+}
+
+.photoCV {
+    border-radius: 100px;
+    margin-top: 50px;
+}
+
+.title {
+    margin: 0;
+}
+
+.homeLinks {
+    /* background-color: white; */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.homeLinksContainer {
+    display: flex;
+    justify-content: space-evenly;
+}

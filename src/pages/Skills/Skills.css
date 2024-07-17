@@ -1,0 +1,29 @@
+.skillsContainer {
+    align-items: center;
+    height: 80vh;
+    /* justify-content: space-around; */
+    text-align: center;
+}
+
+/* .mySkillsContainer {
+    display: flex;
+} */
+
+
+.skills {
+   /*  background-color: white;
+    border-radius: 20px; */
+    height: 80px;
+    margin: 20px;
+    padding: 30px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+.skillsDiv {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
