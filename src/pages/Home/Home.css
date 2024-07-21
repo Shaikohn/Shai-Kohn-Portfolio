@@ -1,4 +1,7 @@
 .homeButtons {
+    background-color: rgb(207, 2, 207);
+    border: solid 3px white;
+    color: white;
     margin: 10px;
 }
 
@@ -8,6 +11,10 @@
     height: 80vh;
     justify-content: space-around;
     text-align: center;
+}
+
+.homeContainer p {
+    font-family: "Manrope", sans-serif;
 }
 
 .paragraphHome {
@@ -27,6 +34,7 @@
     /* background-color: white; */
     border-radius: 10px;
     margin-top: 10px;
+    padding: 10px;
 }
 
 .homeLinksContainer {

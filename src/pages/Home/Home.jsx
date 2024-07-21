@@ -19,8 +19,8 @@ const Home = () => {
       </div>
       <div className='homeLinksContainer'>
         <a href='https://www.linkedin.com/in/shai-kohn/?locale=en_US' target='_blank'><FaLinkedin className='homeLinks' color='blue' size={70} style={{backgroundColor: 'white'}} /></a>
-        <a href='https://github.com/Shaikohn' target='_blank'><FaGithub className='homeLinks' color='#2E2D32' size={70} style={{backgroundColor: 'white'}} /></a>
-        <a href='https://drive.google.com/file/d/1tft5n6jIYdavwUjakp2XRAYxUnHlQwo0/view' target='_blank'><ImProfile className='homeLinks' color='black' size={70} /></a>
+        <a href='https://github.com/Shaikohn' target='_blank'><FaGithub className='homeLinks' color='white' size={70} style={{backgroundColor: 'gray'}} /></a>
+        <a href='https://drive.google.com/file/d/1tft5n6jIYdavwUjakp2XRAYxUnHlQwo0/view' target='_blank'><ImProfile className='homeLinks' color='white' size={70} style={{backgroundColor: 'black', paddingRight: '6px'}} /></a>
       </div>
       </div>
       <img className='photoCV' src={PhotoCV} />

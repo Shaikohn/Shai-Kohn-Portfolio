@@ -11,6 +11,12 @@ import Java from '../../assets/skills/Java.png'
 import Mongo from '../../assets/skills/mongo.png'
 import PostgreSQL from '../../assets/skills/postgres.png'
 import GitHub from '../../assets/skills/github.png'
+import Trello from '../../assets/skills/Trello.png'
+import Git from '../../assets/skills/Git.png'
+import VisualStudioCode from '../../assets/skills/VisualStudioCode.png'
+import IntelliJ from '../../assets/skills/IntelliJ.png'
+import MySQL from '../../assets/skills/MySQL.png'
+import SpringBoot from '../../assets/skills/SpringBoot.png'
 
 const Skills = () => {
   return (
@@ -59,6 +65,10 @@ const Skills = () => {
                     <img className='skills' src={Java} />
                     <p>JAVA</p>
                 </div>
+                <div>
+                    <img className='skills' src={SpringBoot} />
+                    <p>SPRING BOOT</p>
+                </div>
             </div>
             <h1>DATABASES</h1>
             <div className='skillsDiv'>
@@ -70,12 +80,32 @@ const Skills = () => {
                     <img className='skills' src={PostgreSQL} />
                     <p>POSTGRESQL</p>
                 </div>
+                <div>
+                    <img className='skills' src={MySQL} />
+                    <p>MYSQL</p>
+                </div>
             </div>
-            <h1>OTHERS</h1>
+            <h1>TOOLS</h1>
             <div className='skillsDiv'>
                 <div>
                     <img className='skills' src={GitHub} />
                     <p>GITHUB</p>
+                </div>
+                <div>
+                    <img className='skills' src={Git} />
+                    <p>GIT</p>
+                </div>
+                <div>
+                    <img className='skills' src={Trello} />
+                    <p>TRELLO</p>
+                </div>
+                <div>
+                    <img className='skills' src={VisualStudioCode} />
+                    <p>VISUAL STUDIO CODE</p>
+                </div>
+                <div>
+                    <img className='skills' src={IntelliJ} />
+                    <p>INTELLIJ IDEA</p>
                 </div>
             </div>
         </div>
